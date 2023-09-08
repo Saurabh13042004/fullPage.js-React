@@ -8,7 +8,7 @@ function Section({ id, fullpageApi,url }) {
         <div className='section'>
              <img src={url} />
             <div id="upar">
-                <p>Section {id} (welcome to fullpage.js)</p>
+                <p>Section {id} (welcome to coding.js)</p>
                 { console.log(fullpageApi)}
                 <button onClick={() => fullpageApi.moveSectionDown() }>
                     Click me to move down
